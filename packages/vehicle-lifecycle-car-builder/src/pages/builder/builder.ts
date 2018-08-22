@@ -84,7 +84,7 @@ export class BuilderPage implements OnInit {
       make: 'Arium',
       modelType: this.car.name,
       colour: this.states.colour,
-      VIN: ''
+      vin: ''
     };
 
     var full_car = {};
