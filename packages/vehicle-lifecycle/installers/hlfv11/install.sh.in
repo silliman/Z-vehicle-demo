@@ -298,7 +298,7 @@ npm start > /dev/null 2>&1 &
 sleep 10
 
 # Copy and paste the following urls in a web browser opening a new tab for each
-echo -e "For composer playground: $ip:8080\nFor composer rest-server: $ip:3000/explorer/\nFor node-red: $ip:1880\nFor dmv view: $ip:3001\nFor manufacturing view: $ip:3002\nFor car-builder view: $ip:8081\nFor insurance view: $ip:4200"
+echo -e "For composer playground: http://$ip:8080\nFor composer rest-server: http://$ip:3000/explorer/\nFor node-red: http://$ip:1880\nFor dmv view: http://$ip:3001\nFor manufacturing view: http://$ip:3002\nFor car-builder view: http://$ip:8081\nFor insurance view: http://$ip:4200"
 
 # Exit; this is required as the payload immediately follows.
 exit 0
